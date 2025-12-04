@@ -5,6 +5,7 @@ export const LeadersTomorrowStyle = styled.div`
     border-radius: 200px;
     max-width: 1400px;
     padding: 2rem;
+    margin: 0 auto;
   }
   .heading {
     color: white;
@@ -19,4 +20,6 @@ export const LeadersTomorrowStyle = styled.div`
     font-size: 20px;
     text-align: center;
   }
-`;
+
+`
+;

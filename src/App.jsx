@@ -1,13 +1,9 @@
-import "./App.css";
-
-import LeadersTomorrowComponent from "./leaders-tomorrow/leaders-tomorrow-component";
+import About from "./about/about";
 
 function App() {
   return (
     <div>
-      {/* <HelloWorldComponent /> */}
-      {/* <FlexBoxComponent /> */}
-      <LeadersTomorrowComponent />
+      <About />
     </div>
   );
 }
