@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nanditaa PS | Professional Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <meta name="description" content="Professional portfolio of Nanditaa PS, Full Stack Developer"/>
+  <meta name="keywords" content="web developer, portfolio, full stack developer, Nanditaa PS"/>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="#" class="logo">Nanditaa PS</a>
+      <ul class="nav-links">
+        <li><a href="#about" class="active">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="animate">Hi, I'm <span>Nanditaa PS</span></h1>
+        <p class="animate" data-delay="0.2">Full Stack Developer | Future Interns</p>
+        <div class="cta-buttons animate" data-delay="0.4">
+          <a href="projects.html" class="btn">View Projects</a>
+          <a href="contact.html" class="btn btn-outline">Contact Me</a>
+        </div>
+        <div class="scroll-down">
+  <span>Scroll down for more</span>
+  <i class="fas fa-angle-down"></i>
+</div>
+        
+      </div>
+      <div class="hero-image animate" data-delay="0.6">
+        <img src="profile.jpg" alt="Nanditaa PS" class="profile-pic" />
+      </div>
+    </div>
+    
+
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <h2 class="animate">About <span>Me</span></h2>
+      <div class="about-grid">
+        <div class="about-content animate" data-delay="0.2">
+          <p>I’m a Computer Science and Engineering student at Sri Eswar College of Engineering. I’ve completed my first year and am now stepping into the second.
+ My interest in technology is deeply rooted in my passion for....</p>
+          <ul class="expertise-inline">
+            <li><strong>Problem Solving</strong></li>
+            <li><strong>Logical Thinking</strong></li>
+          </ul>
+          <p>that have been consistently recognized since <strong>my school days</strong>, especially through my strong performance in <strong>mathematics.</strong>
+
+</p>
+
+          <p><strong>What sets me apart is</strong> my ability to bridge the gap between design and technology. <strong>"I don't just write code - I create experiences that users love."</strong> My approach combines technical excellence with creative problem-solving.</p>
+
+          <p>When I'm not coding, you can find me contributing to open-source projects, mentoring junior developers, or exploring new technologies. <strong>I'm passionate about continuous learning</strong> </p>
+
+          <div class="personal-quote">
+            <blockquote>
+              "Fueled by logic, driven by curiosity — I turn ideas into code and code into experience."
+            </blockquote>
+          </div>
+
+          <div class="signature animate" data-delay="0.4">
+            <img src="signature.png" alt="Signature" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+  
+  <!-- Chatbase Widget -->
+  <script>
+  (function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="d2tiKTEoYAUIemFFBV3gr";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+  </script>
+</body>
+</html>
